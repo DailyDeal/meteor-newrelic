@@ -7,7 +7,11 @@ Package.describe({
   "git": "https://github.com/Alex509/meteor-newrelic.git"
 });
 
-Npm.depends({ "newrelic": "1.38.2", "@newrelic/native-metrics": "2.1.1" });
+Npm.depends({
+  "newrelic": "1.38.2",
+  "@newrelic/native-metrics": "2.1.1",
+  "cls-fibers": "1.1.1"
+});
 
 Package.on_use(function(api) {
   api.versionsFrom("METEOR@1.3.1");
