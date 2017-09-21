@@ -1,16 +1,17 @@
 Package.describe({
   "summary": "meteor new relic integration",
   "name": "alex509:newrelic",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "author": "Alexey Kuznetsov (https://github.com/Alex509)",
   "homepage": "https://github.com/Alex509/meteor-newrelic",
   "git": "https://github.com/Alex509/meteor-newrelic.git"
 });
 
 Npm.depends({
-  "newrelic": "1.38.2",
+  "newrelic": "2.2.1",
   "@newrelic/native-metrics": "2.1.1",
-  "cls-fibers": "1.1.1"
+  "cls-fibers": "1.1.1",
+  "fibers": "1.0.15"
 });
 
 Package.on_use(function(api) {
