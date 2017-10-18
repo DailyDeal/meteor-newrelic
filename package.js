@@ -8,16 +8,15 @@ Package.describe({
 });
 
 Npm.depends({
-  "newrelic": "2.2.1",
-  "@newrelic/native-metrics": "2.1.1",
+  "newrelic": "2.3.0",
+  "@newrelic/native-metrics": "2.1.2",
   "cls-fibers": "1.1.1",
-  "fibers": "1.0.15"
+  "fibers": "2.0.0"
 });
 
 Package.on_use(function(api) {
-  api.versionsFrom("METEOR@1.3.1");
-  if (api.export) 
+  api.versionsFrom("METEOR@1.5.1");
+  if (api.export)
   	api.export('newrelic', 'server');
   api.add_files('lib/server.js', 'server');
 });
-
