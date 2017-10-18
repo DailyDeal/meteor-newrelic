@@ -1,7 +1,7 @@
 Package.describe({
   "summary": "meteor new relic integration",
   "name": "alex509:newrelic",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "Alexey Kuznetsov (https://github.com/Alex509)",
   "homepage": "https://github.com/Alex509/meteor-newrelic",
   "git": "https://github.com/Alex509/meteor-newrelic.git"
